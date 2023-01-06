@@ -6,9 +6,11 @@
 .header{
     height: 100%;
     background-color: #f1dac9;
-    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-image: url(../images/header_bg.png) ,url(../images/developer.png);
+    background-position: bottom right,left ;
     background-repeat: no-repeat;
-    background-position: bottom right , left center;
+
+
  
     
    
@@ -35,7 +37,7 @@
 .navi{
     display: flex;
     justify-content: space-between;
-    margin: 0 200px 0;
+    margin: 20px 200px ;
 }
 nav ul{
     display: flex;
