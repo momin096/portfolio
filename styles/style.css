@@ -9,7 +9,7 @@
     background-image: url(../images/header_bg.png) ,url(../images/developer.png);
     background-position: bottom right, left  ;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-size: auto , 95px;
     
 
@@ -41,7 +41,7 @@
 .navi{
     display: flex;
     justify-content: space-between;
-    margin: 10px 200px ;
+    padding: 10px 200px ;
 }
 nav ul{
     display: flex;
