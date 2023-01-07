@@ -89,7 +89,7 @@ nav h2{
 .about{
     text-align: center;
     margin-top: 130px;
-    background-color: rgb(227, 209, 245);
+    background-color: rgb(238, 230, 247);
     padding: 130px 150px;
 }
 .about h3{
@@ -118,5 +118,49 @@ nav h2{
 
 .info-description{
     font-weight: 600;
+
+}
+
+
+/* what i do styles */
+.skill{
+    background-color: #fff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.349);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skills h3{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 40px;
+}
+.skill-title  {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.skiill-description{
+    color: gray;
+    padding: 30px;
+
+}
+
+
+/* resume styles */
+
+.resume{
+   margin: 130px 0 100px;
+
+}
+.resume-title {
+    font-size: 30px;
+    text-align: center;
 
 }
