@@ -7,9 +7,11 @@
     height: 100%;
     background-color: #f1dac9;
     background-image: url(../images/header_bg.png) ,url(../images/developer.png);
-    background-position: bottom right,left ;
+    background-position: bottom right, left  ;
     background-repeat: no-repeat;
     overflow: hidden;
+    background-size: auto , 95px;
+    
 
 
 
@@ -188,4 +190,28 @@ nav h2{
 }
 .cvbtn{
     text-align: center;
+}
+
+
+/* contract */
+.contract{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+}
+.contract .section-title{
+    text-align: left;
+}
+.contract input[type="text"], [type="email"],textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    border: 0;
+    padding: 10px  20px;
+}
+.section-title{
+    margin-bottom: 20px;
+}
+.contract a{
+    text-decoration: none;
 }
