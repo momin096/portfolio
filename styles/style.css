@@ -9,6 +9,8 @@
     background-image: url(../images/header_bg.png) ,url(../images/developer.png);
     background-position: bottom right,left ;
     background-repeat: no-repeat;
+    overflow: hidden;
+
 
 
  
@@ -154,13 +156,36 @@ nav h2{
 
 
 /* resume styles */
-
-.resume{
-   margin: 130px 0 100px;
+.resume-summary{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 80px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.resume .title{
+   margin: 10px 0;
 
 }
-.resume-title {
-    font-size: 30px;
-    text-align: center;
+.resume .sub-title{
+    color: #757575;
+    margin: 8px 0;
 
+}
+.resume-description{
+  color: #757575;
+}
+
+.btncv{
+    margin: 50px auto;
+}
+.cvbtn{
+    text-align: center;
 }
